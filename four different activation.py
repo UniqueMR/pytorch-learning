@@ -15,22 +15,22 @@ y_softplus = Fuc.softplus(x).data.numpy()
 
 plt.figure(1, figsize = (8, 6))
 plt.subplot(221)
-plt.plot(x_np, y_relu, c='red', label = 'relu')
+plt.plot(x_np, y_relu, color='red', label = 'relu')
 plt.ylim((-1, 5))
 plt.legend(loc = 'best')
 
 plt.subplot(222)
-plt.plot(x_np, y_sigmoid, c='red', label = 'sigmoid')
+plt.plot(x_np, y_sigmoid, color='red', label = 'sigmoid')
 plt.ylim((-0.2, 1.2))
 plt.legend(loc = 'best')
 
 plt.subplot(223)
-plt.plot(x_np, y_tanh, c='red', label = 'tanh')
+plt.plot(x_np, y_tanh, color='red', label = 'tanh')
 plt.ylim((-1.2, 1.2))
 plt.legend(loc = 'best')
 
 plt.subplot(224)
-plt.plot(x_np, y_softplus, c='red', label = 'softplus')
+plt.plot(x_np, y_softplus, color='red', label = 'softplus')
 plt.ylim((-0.2, 6))
 plt.legend(loc = 'best')
 
